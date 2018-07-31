@@ -199,10 +199,10 @@ margin-left: 0.25rem;
     margin-top: 0.35rem;
     line-height: 0.4rem;
 }
-.lbzs li i{font-weight: 600;
-/*width: 2rem;*/
-float: left;
-text-align: right;}
+.lbzs li i{    font-weight: 600;
+    width: 1.7rem;
+    float: left;
+    text-align: right;}
 .lbzs li span{
 font-size: 0.23rem;
 display: block;
@@ -211,7 +211,6 @@ float: right;
 color: #666;}
 .lbzs li span.red{
     color: #ff0054;
-    font-size: 0.26rem;
 }
 .lbzs li img{
     width: 0.12rem;
