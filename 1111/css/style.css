@@ -1,0 +1,98 @@
+.clearfix:after{
+display: block;
+clear: both;
+content: "";
+visibility: hidden;
+height: 0;
+}
+.clearfix{
+zoom:1;
+}
+i{font-style: normal;}
+.l{float: left;}
+.r{float: right;}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.clearfix{
+    zoom:1;
+}
+body{
+background: url(../img/bg.jpg) no-repeat;
+width: 7.5rem;
+background-size:100% 100%;
+padding-bottom: 1rem;
+float: left;}
+
+
+
+
+/*二级确认页面样式*/
+.lbzs{
+width: 7rem;
+float: left;
+margin-left: 0.25rem;
+}
+.lbzs li{
+    position: relative;
+    width: 100%;
+    float: left;
+    font-size: 0.26rem;
+    color: #666666;
+    margin-top: 0.35rem;
+    line-height: 0.4rem;
+}
+.lbzs li i{    
+    font-weight: 600;
+        color: #000;
+width: 1.5rem;
+float: left;
+font-size: 0.23rem;
+text-align: left;
+word-wrap: break-word;}
+.lbzs li span{
+font-size: 0.23rem;
+display: block;
+width: 5.3rem;
+float: left;
+color: #666;}
+.lbzs li span.red{
+    color: #ff0054;
+}
+
+.btn_kk{
+width: 7rem;
+position: fixed;
+bottom: 1rem;
+left: 0.25rem;
+}
+.qd{
+    width: 3.24rem;
+    height: 0.77rem;
+    line-height: 0.77rem;
+    float: left;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #ffffff;
+    text-decoration: none;
+    background: #0086cf;
+    border-radius: 5px;
+}
+.cls{
+    width: 3.24rem;
+    height: 0.77rem;
+    line-height: 0.7rem;
+    float: right;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #0086cf;
+    text-decoration: none;
+    background: #FFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border:1px solid #0086cf;
+}
