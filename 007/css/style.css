@@ -27,13 +27,13 @@ body {
 @media screen and (max-width:412px) {
  .logo{margin:0rem 0 0 4%;}
 }
-.bt{width: 98%;display: block;margin: 0rem auto 0;z-index: 5;position: relative;top: 0rem;height: 40%;}
+.bt{width: 96%;display: block;margin: 0rem auto 0;z-index: 5;position: relative;top: 0rem;height: 38%;}
 .bt img{width: 100%;height: 100%}
-.dt{width:94%;display: block;margin:-2.7rem auto 0;z-index: 2;position: relative;top: 0rem;height: 40%;}
+.dt{width:92%;display: block;margin:-2.7rem auto 0;z-index: 2;position: relative;top: 0rem;height: 38%;}
 .dt img{width: 100%;height: 100%}
 @media screen and (max-width: 320px) {
  .dt{margin:-2rem auto 0;}
 }
-.md{width: 92%;display: block;margin:0.2rem auto 0;height: 15%;}
+.md{width: 85%;display: block;margin:0.2rem auto 0;height: 15%;}
 .md img{width: 100%;height: 100%}
 
