@@ -1,0 +1,28 @@
+html,body,div,span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    background:#fff  url(../img/bg.png) no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+}
+.s_part{height: 50%;position: relative;top: 1rem;}
+.x_part{height: 50%;}
+
+.logo{width: 20%;display: block;margin:0rem 0 0 4%;position: relative;top: 0.5rem;}
+.logo img{width: 100%}
+.bt{width: 100%;display: block;margin: 0rem auto 0;z-index: 5;position: relative;top: 1.1rem;}
+.bt img{width: 100%}
+.dt{width:96%;display: block;margin:0rem auto 0;z-index: 2;}
+.dt img{width: 100%}
+.md{width: 92%;display: block;margin:1rem auto 0;}
+.md img{width: 100%}
+
