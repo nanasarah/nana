@@ -1,3 +1,7 @@
+html{    
+    overflow:hidden;
+    width: 100%;
+    height: 100%;}
 html,body,div,span{
     margin: 0;
     padding: 0;
@@ -15,7 +19,7 @@ body {
     height: 100%;
 }
 .s_part{height: 50%;}
-.x_part{height: 50%;}
+.x_part{height: 50%;position: relative;top: -4rem;}
 
 .logo{width: 20%;display: block;margin:0rem 0 0 4%;position: relative;top:1rem;}
 .logo img{width: 100%}
