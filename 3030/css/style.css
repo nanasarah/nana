@@ -25,7 +25,7 @@ body {
 .s_part img{display: block;outline: none;border:0;height: 100%;width: 100%;}
 .part2{
    position: absolute;
-    bottom: 12px;
+    bottom: 6px;
     left: 24.5%;
     width: 55%;}
 .part2 .logo{    float: left;
