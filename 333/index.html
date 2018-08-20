@@ -28,9 +28,48 @@
 </div>
 <script type="text/javascript" src="js/html2canvas.js"></script>
 <script type="text/javascript">
-	html2canvas(document.querySelector("#capture")).then(canvas => {
-    document.body.appendChild(canvas)
-});
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>北京移动</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="capture">
+	<div class="s_part">
+	   <img src="img/by.png" />
+	</div>
+	<div class="part2 clearfix">
+	    <div class="md l">
+	    	<p><span></span><i>1元1GB</i>&nbsp;&nbsp;全国流量</p>
+	    	<p><span></span>前三个月&nbsp;&nbsp;<i>0月租</i></p>
+	    	<p><span></span><i>30GB</i>&nbsp;&nbsp;定向流量</p>
+	    	<p><span></span>首冲50&nbsp;&nbsp;<i>送50话费</i></p>
+	    </div>
+	    <div class="xc_code clearfix r">
+	    	<span class="logo"><img src="img/logo.png"></span>
+		     <div class="code">
+				<span><img src="img/code.png" /></span>
+				<p>扫码免费领卡</p>
+		    </div>
+	    </div>
+	</div>
+</div>
+<script type="text/javascript" src="js/html2canvas.js"></script>
+<script type="text/javascript">
+// 	html2canvas(document.querySelector("#capture")).then(canvas => {
+//     document.body.appendChild(canvas)
+// });
+
+        html2canvas(document.body).then(function(canvas) {
+            document.body.appendChild(canvas);
+        });
+ </script>
+</body>
+</html>
+
+
 </script>
 </body>
 </html>
