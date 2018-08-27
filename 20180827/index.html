@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>北京移动</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<!--最终的图片容器-->
+<img id="jt_img" crossorigin="anonymous" style="width: 100%;height: 100%;position: absolute;left: 0;top: 0;"/>
+<!--自己的画布-->
+<canvas id="ourCanvas" style="position: absolute; left: 0;top:0; z-index: -1;"></canvas>
+
+<div id="capture">
+	<div class="s_part">
+	   <img src="img/bg.jpg" />
+	</div>
+	<div class="part2 clearfix">
+	    <div class="md r clearfix">
+		    <div class="wz l">
+		    	<p><i>173</i>个目的地&nbsp;1-30天任选&nbsp;最低<i>10</i>元/天</p>
+		    	<p>无设备&nbsp;无取还&nbsp;无押金&nbsp;不换卡</p>
+		    	<p>即买即用&nbsp;<i>90</i>天内有效</p>
+		    	<p>7*24小时客服</p>
+		    </div>
+		    <span class="logo"><img src="img/logo.png"></span>
+	    </div>
+	    <div class="xc_code clearfix l">
+				<span><img src="img/code.png" /></span>
+	    </div>
+	</div>
+</div>
+<script type="text/javascript" src="js/html2canvas.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+	var canvas = document.getElementById("ourCanvas");
+	var width = $(window).width(); //获取dom 宽度
+	var height = $(window).height(); //获取dom 高度
+	var scale = 3;//需要做倍数转化，否则画面会糊掉
+	function InitCanvas() {
+		canvas.width = width * scale;
+		canvas.height = height * scale;
+		canvas.style.width = width + "px";
+		canvas.style.height = height + "px";
+		var context = canvas.getContext("2d");
+		context.scale(scale, scale); //然后将画布缩放，将图像放大两倍画到画布上
+	}
+	//初始化画布
+	InitCanvas();
+	$("body").css("height", document.body.clientHeight + "px");
+	setTimeout(function() {				
+		setTimeout(function() {
+			html2canvas($("#capture")[0], {
+				scale: scale, // 添加的scale 参数
+				canvas: canvas, //自定义 canvas
+				width: width, //dom 原始宽度
+				height: height,
+				useCORS: true // 【重要】开启跨域配置
+			}).then(function(canvas) {
+				$("#capture").fadeOut();
+				imgData = canvas.toDataURL("image/png");
+				$("#jt_img").attr("src", imgData);	
+			});
+		},10);
+	},10);
+ </script>
+</body>
+</html>
+

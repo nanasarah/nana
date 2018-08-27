@@ -1,0 +1,102 @@
+html{    
+    overflow:hidden;
+    width: 100%;
+    height: 100%;}
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+ .clearfix:after{
+display: block;
+clear: both;
+content: "";
+visibility: hidden;
+height: 0;
+}
+.clearfix{
+zoom:1;
+}
+.l{float: left;}
+.r{float: right;}
+p{ font-size: 14px;}
+body {
+    margin: 0 auto;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+     line-height: 1;
+    font-family: "Microsoft YaHei";
+    color: #333;
+}
+.s_part{width: 100%;height: 100%;top: 0;z-index: -1;position: absolute;}
+.s_part img{display: block;outline: none;border:0;height: 100%;width: 100%;}
+.part2{
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    width: 94%;
+    padding:0;
+}
+@media screen and (max-width:320px) {
+.part2{
+    bottom: 3%;
+}
+}
+.md{width: 77%}
+@media screen and (max-width:320px) {
+.md{width: 82%}
+}
+.wz{width: 80%;}
+@media screen and (max-width:320px) {
+.wz{width: 88%;}
+}
+.wz p{color: #3c2810;
+font-size: 0.75rem;
+line-height: 1.13rem;
+margin: 0px;}
+@media screen and (max-width:320px) {
+.wz p {
+    font-size: 0.7rem;
+    line-height: 0.86rem;
+}
+}
+.wz p i{font-style: normal;font-weight: 600;}
+.logo{
+float: right;
+width: 19%;
+position: relative;
+}
+@media screen and (max-width:320px) {
+.logo{
+width: 12%;
+}
+}
+.logo img{width: 100%} 
+.xc_code span{    
+width: 4.4rem;
+height: 4.4rem;
+display: block;
+margin: 0 auto;
+border: 1px solid #666;
+background: #fff;}
+@media screen and (max-width:320px) {
+  .xc_code span{    
+    width: 3rem;
+    height: 3rem;
+}
+}
+.part2 span img{width: 100%;height: 100%;}
+.o-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 20;
+}
+
+
+
