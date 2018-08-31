@@ -1,0 +1,14 @@
+/*é¡µè„š*/
+.footera a:hover{text-decoration:underline;color:#007bc7;}
+.footera a:active{color:#007bc7;}
+.ahref{color:#4e4e4e;}
+.footera{width:1000px;margin:0 auto;}
+.footcon{float:left;width:100%;padding:20px 0;}
+.footcon p{line-height:33px;text-align:center;}
+.footcon .xuke{line-height:18px; padding:4px 0 0 0;}
+.copytop{margin:15px 0 0 0;}
+.footgov {margin: 10px auto; text-align: left; width: 300px;}
+.footgov .gov { background: url("../images/gov.gif") no-repeat; line-height: 25px;  margin:12px 0 0 0;  padding: 0 0 0 25px;  width: auto;}
+.footgov span { float: left;}
+.footgov .govtxt { float: left; padding: 0 0 0 20px; width: 150px;}
+.footgov .govtxt2 { padding: 0 0 0 10px;}
