@@ -70,7 +70,7 @@ margin-top: 0.45rem;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -o-border-radius: 10px;
-    padding: 0.1rem 0 0.1rem 0;
+    padding: 0.1rem 0 0.15rem 0;
     width: 2.6rem;
     margin: 0 0.2rem 0.3rem 0.1rem;}
 .tzwzn{position: relative;left: 1.17rem;}
@@ -238,7 +238,7 @@ margin: 0.08rem 0 0.05rem;}
 .tcdw ul li span.mgsp{
 display: block;
 width: 1.8rem;
-margin: 0.2rem auto 0;
+margin: 0.08rem auto 0;
 cursor:pointer;}
 .tcdw ul li span.mgsp img{width:100%;}
 .ull{width: 6rem;margin: 0 auto;position: relative;left: 0.05rem;}
