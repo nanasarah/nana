@@ -78,7 +78,7 @@ margin-top: 0.45rem;
 .tcdw ul li:hover .sp1,.tcdw ul li:hover .sp1 i{color: #d21985}
 .active .sp1,.active .sp1 i{color: #d21985}
 .tcdw ul li span{color: #333;line-height: 0.4rem;display: block;}
-.sp1 i{font-weight: 600;font-size: 0.3rem;}
+.sp1 i{font-size: 0.35rem;}
 .llsm{
 color: #fff;
 font-size: 0.24rem;
@@ -90,7 +90,7 @@ margin-top: 0.3rem;}
 .sp3 i.bysd{color: #333;margin-right:0.08rem; }
 .sp4{border-bottom: 1px dashed #d21985;margin-bottom: 0.15rem;display: block;}
 .sp4 del{color: #7a7a7a;}
-.sp1{display: block;line-height: 0.5rem;}
+.sp1{display: block;line-height: 0.5rem;font-size: 0.25rem;}
 .sp1 i{margin-right: 0.08rem;}
 .sp2{display: block;}
 .sp2 i{margin-right: 0.08rem;}
@@ -237,9 +237,9 @@ line-height: 0.36rem;
 margin: 0.08rem 0 0.05rem;}
 .tcdw ul li span.mgsp{
 display: block;
-width: 1.8rem;
-margin: 0.08rem auto 0;
-cursor:pointer;}
+width: 1.7rem;
+margin: 0.15rem auto 0;
+cursor: pointer;}
 .tcdw ul li span.mgsp img{width:100%;}
 .ull{width: 6rem;margin: 0 auto;position: relative;left: 0.05rem;}
 .mg4{margin-bottom: 0.4rem;position: relative;top: 0.2rem;}
