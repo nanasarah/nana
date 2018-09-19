@@ -1,0 +1,297 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+body{
+	font-family:"microsoft yahei";
+}
+.swiper-container {
+	width: 100%;
+    height: 100%;
+	background:#000;
+}  
+
+.swiper-slide{
+	width:100%;
+	height:100%;
+	background:url(../images/bg.png) no-repeat left top;
+	background-size:100% 100%;
+}
+img{
+	display:block;
+}
+.swiper-pagination-bullet {
+width: 6px;
+height: 6px;
+background: #fff;
+opacity: .4;
+}
+.swiper-pagination-bullet-active {
+opacity: 1;
+}
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+.ani{
+	position:absolute;
+	}
+.txt{
+	position:absolute;
+}
+#array{
+	position:absolute;z-index:999;-webkit-animation: start 1.5s infinite ease-in-out;
+}
+
+/*1*/
+.swiper-slide1{width:100%;
+	height:100%;
+	background:url(../upload/page1/bg.png) no-repeat left top;
+	background-size:100% 100%;}
+.pistyle{    
+	width: 100%;
+    /*height: 44%;*/
+    left: 0px;
+    bottom: 0;
+    z-index: 3;}
+  .pcstyle  {    width: 80%;
+    height: 37%;
+    left: 4%;
+    top: 7%;
+    z-index: 3;}
+ /*   2*/
+    .pcstyle1{width: 61%;
+     height: 7%; 
+    left: 0px;
+    top: 3%;
+    z-index: 3;}
+    .pcstyle2{    width: 77%;
+  /*  height: 9%;*/
+    left: 8%;
+    top: 13%;
+    z-index: 5;} 
+    .pcstyle3{    width: 70%;
+        height: 33%;
+    left: 15%;
+    top: 21%;
+    z-index: 5;}
+    .pcstyle4{width: 30%;
+    /* height: 12%; */
+    right: 10%;
+    top: 31.5%;
+    z-index: 5;
+}
+    .pcstyle5{    width: 77%;
+    /* height: 12%; */
+    left: 8%;
+    top: 56%;
+    z-index: 5;}
+    .pcstyle6{     width: 84%;
+    /* height: 12%; */
+    left: 8%;
+    top: 65%;
+    z-index: 5;}
+    .pcstyle7{      width: 84%;
+    /* height: 12%; */
+    left: 8%;
+    top: 77%;
+    z-index: 5;}
+    .pcstyle8{     width: 74%;
+    /* height: 12%; */
+    left: 13%;
+    top: 87%;
+    z-index: 5;}
+  /*  3*/
+  .pcstyle31{ width: 88%;
+     height: 7%; 
+    left: 0px;
+    top: 3%;
+    z-index: 3;}
+  .pcstyle32{     width: 90%;
+     height: 33%;
+    left: 5%;
+    top: 13%;
+    z-index: 3;}
+  .pcstyle33{    width: 90%;
+        height: 33%;
+    left: 5%;
+    top: 50%;
+    z-index: 3;}
+  .pcstyle34{    width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top: 86%;
+    z-index: 3;}
+   /* 4*/
+  .pcstyle41{  width: 88%;
+    /* height: 6%; */
+    left: 0px;
+    top: 3%;
+    z-index: 3;}
+    .pcstyle042{    width: 39%;
+    left: 5%;
+    top: 12%;
+    z-index: 3;}
+    .pcstyle043{     width: 90%;
+    height: 70%;
+    left: 5%;
+    top: 17%;
+    z-index: 3;}
+    .pcstyle42{    
+    width: 39%;
+    left: 5%;
+    top: 12%;
+    z-index: 3;}
+    .pcstyle43{    width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top:16%;
+    z-index: 3;}
+    .pcstyle44{    width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top: 91%;
+    z-index: 3;}
+    /*5 */
+    .pcstyle51{ width: 88%;
+    /* height: 6%; */
+    left: 0px;
+    top: 3%;
+    z-index: 3;}
+    .pcstyle52{    width: 90%;
+      height: 35.5%;
+    left: 5%;
+    top: 14%;
+    z-index: 3;}
+    .pcstyle53{    width: 90%;
+        height: 35%;
+    left: 5%;
+    top: 54%;
+    z-index: 3;}
+    /*6*/
+    .pcstyle64{ width: 80%;
+    /* height: 6%; */
+    left: 10%;
+    top: 92%;
+    z-index: 3;}
+ /* 7*/
+.pcstyle71{width: 88%;
+    /* height: 6%; */
+    left: 0px;
+    top: 3%;
+    z-index: 3;}
+.pcstyle72{width: 47%;
+    /* height: 6%; */
+    left: 3%;
+    top: 12%;
+    z-index: 3;}
+.pcstyle73{    width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top: 17%;
+    z-index: 3;}
+.pcstyle74{width: 70%;
+    /* height: 6%; */
+    left: 15%;
+    top: 23%;
+    z-index: 3;}
+.pcstyle75{    width: 78%;
+    /* height: 6%; */
+    left: 11%;
+    top: 48%;
+    z-index: 3;
+}
+.pcstyle76{width: 47%;
+    /* height: 6%; */
+    left: 3%;
+    top: 57%;
+    z-index: 3;}
+.pcstyle77{  width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top: 62%;
+    z-index: 3;}
+.pcstyle78{width: 70%;
+    /* height: 6%; */
+    left: 15%;
+    top: 64%;
+    z-index: 3;}
+.pcstyle79{ width: 78%;
+    /* height: 6%; */
+    left: 11%;
+    top: 91%;
+    z-index: 3;}
+  /*  11*/
+  .pcstyle02{     
+  	width: 37%;
+    top: 12%;
+    left: 3%;
+    z-index: 3;}
+  .pcstyle03{    
+    width: 48%;
+    left: 4%;
+    top: 20%;
+    z-index: 3;}
+  .pcstyle04{       
+  	width: 45%;
+    right: 6%;
+    top: 14%;
+    z-index: 3;}
+  .pcstyle05{    
+    width: 90%;
+    left: 5%;
+    top: 43%;z-index: 3;
+}
+  .pcstyle07{     
+  	width: 90%;
+    left: 5%;
+    top: 19%;z-index: 3;
+}
+  .pcstyle08{     
+  	width: 90%;
+    left: 5%;
+    top: 82%;z-index: 3;
+
+}
+/*13*/
+.pcstyle013{width: 80%;
+        height: 30%;
+    left: 10%;
+    top: 14%;
+    z-index: 3;}
+.pcstyle014{width: 80%;
+       height: 34%;
+    left: 10%;
+    top: 50%;
+    z-index: 3;}
+    .pcstyle015{width: 90%;
+    /* height: 6%; */
+    left: 5%;
+    top: 91%;
+    z-index: 3;}
+
+.pcstyle952{    width: 86%;
+    height: 35.5%;
+    left: 7%;
+    top: 14%;
+    z-index: 3;}
+    .pcstyle953{    
+        width: 86%;
+    height: 35%;
+    left: 7%;
+    top: 54%;
+    z-index: 3;}
