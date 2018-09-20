@@ -25,7 +25,9 @@ float: left;}
     margin-left: 1.25rem;
     position: relative;
     top: 0.7rem;}
-.xct{display: block;}
+.xct{display: block;
+    width: 6rem;
+    margin: 0.2rem auto;}
 .xct img{width: 100%;}
 .ljbl{
     width: 5.5rem;
