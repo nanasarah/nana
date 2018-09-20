@@ -1,0 +1,117 @@
+ .clearfix:after{
+display: block;
+clear: both;
+content: "";
+visibility: hidden;
+height: 0;
+}
+.clearfix{
+zoom:1;
+}
+i{font-style: normal;}
+body{
+background: url(../img/bg.jpg) no-repeat;
+width: 7.5rem;
+background-size:cover;
+float: left;}
+.banner{
+    width: 7.5rem;
+    display: block;
+    margin-top: 0.6rem;
+}
+.dwbt{
+    display: block;
+    width: 5rem;
+    margin-left: 1.25rem;
+    position: relative;
+    top: 0.7rem;}
+.xct{display: block;}
+.xct img{width: 100%;}
+.ljbl{
+    width: 5.5rem;
+    float: left;
+    margin-left: 1rem;
+    position: relative;
+    top: -0.3rem;}
+.ljbl img{width: 100%;}
+a.zfxq{ display: inline-block;
+    color: #fff;
+    font-size: 0.28rem;
+    width: 7.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.part2{
+    width: 6.5rem;
+    margin: 0.3rem 0 0.5rem 0.25rem;
+    display: block;
+    background: #fff;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding: 0.5rem 0.25rem;}
+.part2 span{display: block;}
+.part2 span img{width: 100%}
+.tips{    
+    color: #259cea;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    margin-top: 0.4rem;}
+.app p.more{
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 0.33rem;
+    margin: 0.3rem 0 0.2rem;
+    color: #666;}
+.app p:last-child{font-size: 0.26rem;
+    line-height: 0.4rem;}
+.app p:last-child a{color: #f81010;line-height: 0.4rem;}
+.top{    
+    display: block;
+    width: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 0.1rem;}
+.top img{width: 100%}
+ /*   弹层*/
+.zzc{ width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    opacity: 0.7;
+    filter: alpha(opacity=70);}
+.bkbr{left: 0.25rem;
+background: #fff;
+z-index: 100;
+margin: 0 auto;
+position: fixed;
+top: 2.6rem;
+border-radius: 14px;
+-moz-border-radius: 14px;
+-webkit-border-radius: 14px;
+-o-border-radius: 14px;
+padding: 0 0 0.3rem 0;
+width: 7rem;
+}   
+.closed{display: block;
+width: 0.5rem;
+position: absolute;
+top: -0.7rem;
+right: 0;}
+.closed img{width:100%;}
+.content .title{
+   display: block;
+   margin: 0.3rem auto 0.1rem;
+}
+.content .title img{width: 100%}
+.cont_1{padding: 0.1rem 0.2rem;background: #fff; height: 5rem;overflow: scroll;}
+.cont_1 li{color: #333;
+line-height: 0.4rem;
+font-size: 0.24rem;}
