@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv=X-UA-Compatible content=IE=Edge>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<body>
+<img src="img/banner.png" alt="" class="banner">
+<img src="img/dwbt.png" alt="" class="dwbt">
+<span class="xct"><img src="img/pic.png" /></span>
+<a class="ljbl" href="http://service.bj.10086.cn/m/num/num/commonNum/showFontPage.action?busiCode=CKK"><img src="img/ljbl.png" alt=""></a>
+<a class="zfxq" href="#zfxq">资费详情</a>
+<div class="part2">
+    <span><img src="img/mflk.png" /></span>
+</div>
+<div class="part2" id="zfxq">
+    <span><img src="img/zfxq.png" /></span>
+    <a class="tips">>>>  点击查看温馨提示  <<<</a>
+</div>
+<div class="part2 app">
+    <span><img src="img/app.png" /></span>
+    <p class="more">更多APP持续添加中</p>
+    <p>*点击查看<a href="http://service.bj.10086.cn/m/mbjyd/ydwkgz/index.html">更多专属免流量范围</a></p>
+</div>
+<a class="top"><img src="img/return_top.png" /></a>
+<!-- 弹窗 -->
+   <div class="zzc" style="display:none"></div>
+   <div class="bkbr" style="display:none">
+     <span class="closed"><img src="img/close.png"></span>
+     <div class="content">
+         <span class="title"><img src="img/wxts_title.png" /></span>
+         <div class="cont_1">
+             <ul>
+                 <li>1、国内上网按照1元/1GB自动叠加计费，即用户每天使用国内流量时，先收取1元，每用完1GB自动叠加。该流量优惠限当天有效，未用完部分当日24点清零。</li>
+                 <li>2、本资费方案有效期为激活入网后12个月。有效期截止后（即套餐生效后第13个月月初起），如无其他通知，则套外流量资费自动变更为0.29元/MB、10元/100MB、60元/GB。</li>
+                 <li>3、移动王卡激活当月收取整月月费，获得全量免费资源。</li>
+                 <li>4、移动王卡当月套外流量费适用500元费用封顶规则限制。当月总流量适用100GB停功能封顶规则限制。国内流量不受15Gb封顶规则限制。</li>
+                 <li>5、您办理本业务后，流量不能赠与、不能分享，也无法作为和家庭、家庭计划、4G多终端共享计划的主卡和副卡。</li>
+                 <li>6、移动王卡与除任我看视频流量包外所有流量叠加产品互斥，且用户无法订购与主套餐内所含定向视频流量相同APP的任我看视频流量包。套内定向视频流量当月清零、不能赠与或分享。</li>
+                 <li>7、新入网客户将免费开通移动数据流量产品功能、国际/港澳台漫游功能（含国际/港澳台长途），生效日期以号码激活成功的时间为准。号码激活后可免费试用139邮箱、飞信、彩云等移动互联基础功能，功能试用中产生的通信费用参照现行各套餐资费标准执行。如需了解功能详情及资费，请拨打10086咨询。</li>
+                 <li>8、移动王卡未提及资费（如短信费等），均按动感地带资费标准执行。更多产品详情，请咨询北京移动10086。</li>
+             </ul>
+         </div>
+     </div>
+   </div>
+<script type="text/javascript" src="js/fontsize.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/return_top.js"></script>
+<script>
+    $(function(){
+        // $(".tcdw ul li").click(function(){
+        //     $(this).addClass("active").siblings("li").removeClass("active");
+        //     if ($(this).index()==0){
+        //         $(".ljbl").attr("href","se_sure01.html");
+        //     }else if($(this).index()==1){
+        //          $(".ljbl").attr("href","se_sure02.html");
+        //     }else if($(this).index()==2){
+        //          $(".ljbl").attr("href","se_sure.html");
+        //     }
+        //     else if($(this).index()==3){
+        //          $(".ljbl").attr("href","se_sure1.html");
+        //     }else if($(this).index()==4){
+        //          $(".ljbl").attr("href","se_sure2.html");
+        //     }
+        // });
+$(".closed").click(function(){
+    $('.zzc').hide();
+    $('.bkbr').hide();
+})
+$(".tips").click(function(){
+   $('.zzc').show();
+   $('.bkbr').show(); 
+})
+    })
+</script>
+</body>
+</html>
